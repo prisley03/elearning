@@ -14,7 +14,29 @@
 
 <body>
     <nav></nav>
-    <main></main>
+    <main>
+        <h1>Recently Added</h1>
+        <div class="cards">
+
+        </div>
+
+        <h1>Available Degrees</h1>
+        <div class="degrees">
+
+        </div>
+
+        <div class="info">
+            <div class="contribute">
+                <h1>Want to contribute?</h1>
+            </div>
+            <div class="menteeRegistration">
+                <h1>Become a Mentee</h1>
+            </div>
+            <div class="contact">
+                <h1>Contact Us</h1>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>
