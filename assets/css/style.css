@@ -1,3 +1,25 @@
 body{
     display: flex;
 }
+section{
+    border: 1px solid black;
+    margin: 3rem 5rem;
+}
+
+.title{
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+.degrees{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards{
+    display: flex;
+    height: 3rem;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
