@@ -13,19 +13,58 @@
 </head>
 
 <body>
-    <nav></nav>
+    <nav>
+        <!-- Navbar -->
+    </nav>
     <main>
         <h1>Recently Added</h1>
-        <div class="cards">
+        <section class="cards">
 
-        </div>
+        </section>
 
         <h1>Available Degrees</h1>
-        <div class="degrees">
+        <section class="degrees">
+            <div class="cards">
 
-        </div>
+            </div>
+            <div class="cards">
+                <img src="" alt="">
+                <p>Accounting</p>
+            </div>
+            <div class="cards">
+                <img src="" alt="">
+                <p>Chinese Literature</p>
+            </div>
+            <div class="cards">
+                <img src="" alt="">
+                <p>Computer Science</p>
+            </div>
+            <div class="cards">
+                <img src="" alt="">
+                <p>Entrepreneurship</p>
+            </div>
+            <div class="cards">
+                <img src="" alt="">
+                <p>Food Technology</p>
+            </div>
+            <div class="cards">
+                <img src="" alt="">
+                <p>Information Systems</p>
+            </div>
+            <div class="cards">
+                <img src="" alt="">
+                <p>Information Systems</p>
+            </div>
+            <div class="cards">
+                <img src="" alt="">
+                <p>Industrial Engineering</p>
+            </div>
+            <div class="cards"></div>
+            <div class="cards"></div>
+            <div class="cards"></div>
+        </section>
 
-        <div class="info">
+        <section class="info">
             <div class="contribute">
                 <h1>Want to contribute?</h1>
             </div>
@@ -35,7 +74,7 @@
             <div class="contact">
                 <h1>Contact Us</h1>
             </div>
-        </div>
+        </section>
     </main>
 </body>
 
