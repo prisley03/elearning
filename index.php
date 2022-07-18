@@ -106,17 +106,38 @@
                     </li>
                 </ol>
             </div>
-            <div class="menteeRegistration">
+            <div>
                 <p class="title">Become a Mentee</p>
                 <p>
                     Get exclusive modules and learn together alongside a verified mentor and other mentees!
                 </p>
-                <div class="registrationButton">
-                    <p>Register</p>
-                </div>
+                <a class="menteeregistration" href="">
+                    <div class="registrationButton">
+                        <p>Register</p>
+                    </div>
+                </a>
             </div>
-            <div class="contact">
+            <div>
                 <p class="title">Contact Us</p>
+                <div class="contacts">
+                    <div>
+                        <img src="/assets/img/socialmedia/line.svg" alt="">
+                        <p>@hlh6945o</p>
+                    </div>
+
+                    <div>
+                        <img src="/assets/img/socialmedia/twitter.svg" alt="">
+                        <p>@BSLC_BINUS</p>
+                    </div>
+                    <div>
+                        <img src="/assets/img/socialmedia/instagram.svg" alt="">
+                        <p>@bslc_binus</p>
+                    </div>
+                    <div>
+                        <img src="/assets/img/socialmedia/facebook.svg" alt="">
+                        <p>Binus Student Learning Community</p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>

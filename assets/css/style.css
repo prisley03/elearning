@@ -5,7 +5,6 @@ ul{
     list-style-type: none;
 }
 section{
-    border: 1px solid black;
     margin: 3rem 5rem;
 }
 
@@ -117,4 +116,31 @@ section{
 
 li{
     margin-left: 2rem;
+}
+
+
+/* Become a Mentee */
+.registrationButton{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: var(--bslc-tosca);
+    border-radius: 5px;
+    color: white;
+}
+
+.menteeregistration{
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+
+/* Contacts */
+.contacts div{
+    display: flex;
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+.contacts div p{
+    margin-left: 1rem;
+    color: black;
 }
