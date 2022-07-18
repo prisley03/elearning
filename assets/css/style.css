@@ -1,6 +1,9 @@
 body{
     display: flex;
 }
+ul{
+    list-style-type: none;
+}
 section{
     border: 1px solid black;
     margin: 3rem 5rem;
@@ -9,17 +12,109 @@ section{
 .title{
     font-size: 1.125rem;
     font-weight: bold;
+    margin-bottom: 1rem;
 }
-.degrees{
+.cards-container{
     display: flex;
     flex-wrap: wrap;
-}
-.cards{
-    display: flex;
-    height: 3rem;
 }
 
 .info{
     display: flex;
     justify-content: space-between;
+}
+
+.hue{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: 1;
+}
+.cards{
+    position: relative;
+    display: flex;
+    height: 5rem;
+    align-items: center;
+    width: fit-content;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    background-image: url('/assets/img/minicardbackground.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0 1rem;
+    cursor: pointer;
+}
+.cards p{
+    margin-left: 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: white;
+    z-index: 2;
+}
+
+.cards img{
+    z-index: 2;
+}
+
+/* Cards */
+.accounting{
+    background-color: rgba(0, 10, 255, 0.4);
+}
+
+.chineseliterature{
+    background-color: rgba(255, 0, 0, 0.6); 
+}
+
+.computerscience{
+    background-color: rgba(3, 101, 194, 0.5);
+}
+
+.entrepreneurship{
+    background-color: rgba(202, 198, 64, 0.7);
+}
+
+.foodtechnology{
+    background-color: rgba(15, 141, 8, 0.5);
+}
+
+.informationsystems{
+    background-color: rgba(155, 12, 191, 0.5);
+}
+
+.industrialengineering{
+    background-color: rgba(14, 162, 215, 0.6);
+}
+
+.ibm{
+    background-color: rgba(61, 204, 120, 0.5);
+}
+
+.management{
+    background-color: rgba(158, 68, 23, 0.65);
+}
+
+.psychology{
+    background-color: rgba(215, 39, 174, 0.65);
+}
+
+.ism{
+    background-color: rgba(133, 23, 23, 0.65);
+}
+
+.isa{
+    background-color: rgba(153, 221, 44, 0.65);
+}
+
+/* Info */
+.info > div{
+    width: 18rem;
+}
+
+li{
+    margin-left: 2rem;
 }
