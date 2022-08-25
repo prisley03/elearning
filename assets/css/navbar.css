@@ -1,0 +1,51 @@
+nav{
+    font-family: 'Rubik', sans-serif;
+    margin-right: 20px;
+}
+
+.logo{
+    color: rgba(25, 168, 157, 100%);
+    line-height: 30px;
+    margin: 15px 0px 50px 30px;
+}
+
+.bslc p{
+    font-size: 16cm;
+    font-weight: bold;
+}
+
+.elearning{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.category{
+    margin: 20px 100px 0px 50px;
+}
+
+.category ul li{
+    list-style-type: none;
+    display: flex;
+    position: inherit;
+    display: inline-flex;
+    line-height: 50px;
+    width: 250%;
+    margin-left: 0px;
+}
+
+.mono{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.mono img{
+    margin-right: 20px;
+}
+
+.duo{
+    margin-bottom: 50px;
+}
+
+.duo img{
+    margin-right: 10px;
+}

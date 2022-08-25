@@ -9,14 +9,84 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<<<<<<< Updated upstream
     <link rel="stylesheet" href="/assets/css/global.css">
     <link rel="stylesheet" href="/assets/css/style.css">
+=======
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/navbar.css">
+>>>>>>> Stashed changes
     <title>E-Learning</title>
 </head>
 
 <body>
     <nav>
-        <!-- Navbar -->
+        <section class="logo">
+            <div class="BSLC">
+                <p>BSLC</p>
+            </div>
+            <div class="elearning">
+                <p>E-LEARNING</p>
+            </div>
+        </section>
+
+        <section class="category">
+            <div class="mono">
+            <ul>
+            <li>
+                <img src="./assets/img/icons/accounting-black.svg" alt="">
+                <p>Accounting</p>
+            </li>
+            <li>
+                <img src="./assets/img/icons/chineseliterature-black.svg" alt="">
+                <p>Chinese Literature</p>
+            </li>
+            <li>
+                <img src="./assets/img/icons/computerscience-black.svg" alt="">
+                <p>Computer Science</p>
+            </li>
+            <li>
+                <img src="./assets/img/icons/entrepreneurship-black.svg" alt="">
+                <p>Entrepreneurship</p>
+            </li>
+            <li>
+                <img src="./assets/img/icons/foodtechnology-black.svg" alt="">
+                <p>Food Technology</p>
+            </li>
+            <li>
+                <img src="./assets/img/icons/informationsystems-black.svg" alt="">
+                <p>Information Systems</p>
+            </li>
+            <li>
+                <img src="./assets/img/icons/industrialengineering-black.svg" alt="">
+                <p>Industrial Engineering</p>
+            </li>
+            <li>
+                <img src="./assets/img/icons/ibm-black.svg" alt="">
+                <p>International Business Management</p>
+            </li>
+            <li>
+                <img src="./assets/img/icons/management-black.svg" alt="">
+                <p>Management</p>
+            </li>
+            <li>
+                <img src="./assets/img/icons/psychology-black.svg" alt="">
+                <p>Psychology</p>
+            </li>
+            </ul>
+            </div>
+
+            <div class="duo">
+            <ul>
+            <li><img src="./assets/img/icons/ISM-black.svg" alt="">
+            <p>Information System & Management</p></li>
+            <li><img src="./assets/img/icons/ISA-black.svg" alt="">
+            <p>Information System & Accounting</p></li>
+            </ul>
+            </div>
+        </section>
+
     </nav>
     <main>
 
