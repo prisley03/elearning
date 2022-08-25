@@ -6,7 +6,7 @@ nav{
 .logo{
     color: rgba(25, 168, 157, 100%);
     line-height: 30px;
-    margin: 15px 0px 50px 30px;
+    margin: 15px 0px 0px 30px;
 }
 
 .bslc p{
@@ -29,12 +29,11 @@ nav{
     position: inherit;
     display: inline-flex;
     line-height: 50px;
-    width: 250%;
+    width: 300%;
     margin-left: 0px;
 }
 
 .mono{
-    margin-top: 20px;
     margin-bottom: 50px;
 }
 
